@@ -1,0 +1,114 @@
+{
+  "id": "1936488",
+  "name": "tubaio2",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2742669",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "13646840",
+      "name": "星星",
+      "font_class": "xingxing",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "608317",
+      "name": "箭头",
+      "font_class": "jiantouarrow483",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "1048878",
+      "name": "位置",
+      "font_class": "icon_location",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "15718649",
+      "name": "电动自行车-骑手",
+      "font_class": "zihangche3",
+      "unicode": "e6d6",
+      "unicode_decimal": 59094
+    },
+    {
+      "icon_id": "15721551",
+      "name": "小汽车",
+      "font_class": "qiche2",
+      "unicode": "e6e3",
+      "unicode_decimal": 59107
+    },
+    {
+      "icon_id": "15721595",
+      "name": "小船",
+      "font_class": "chuan1",
+      "unicode": "e6e6",
+      "unicode_decimal": 59110
+    },
+    {
+      "icon_id": "15721621",
+      "name": "维修-修车",
+      "font_class": "weixiu-xiuche",
+      "unicode": "e6e9",
+      "unicode_decimal": 59113
+    },
+    {
+      "icon_id": "15721653",
+      "name": "直升飞机2",
+      "font_class": "zhishengfeiji2",
+      "unicode": "e6ea",
+      "unicode_decimal": 59114
+    },
+    {
+      "icon_id": "15721658",
+      "name": "跑车",
+      "font_class": "paoche",
+      "unicode": "e6eb",
+      "unicode_decimal": 59115
+    },
+    {
+      "icon_id": "15721660",
+      "name": "救护车2",
+      "font_class": "jiuhuche2",
+      "unicode": "e6ec",
+      "unicode_decimal": 59116
+    },
+    {
+      "icon_id": "15727280",
+      "name": "摩托车",
+      "font_class": "motuoche",
+      "unicode": "e6f5",
+      "unicode_decimal": 59125
+    },
+    {
+      "icon_id": "15727814",
+      "name": "轮船-货轮",
+      "font_class": "chuan3",
+      "unicode": "e6fa",
+      "unicode_decimal": 59130
+    },
+    {
+      "icon_id": "15731055",
+      "name": "电车-电动公交",
+      "font_class": "dianche-diandonggongjiao",
+      "unicode": "e702",
+      "unicode_decimal": 59138
+    },
+    {
+      "icon_id": "15755254",
+      "name": "火箭",
+      "font_class": "huojian",
+      "unicode": "e721",
+      "unicode_decimal": 59169
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+a{
+    text-decoration: none;
+    color: #fff;
+
+    &:active{
+        color: rgb(197, 196, 196);
+    }
+}
+
+// 顶部导航条外部容器
+.top-bar{
+    height: 48px;
+    background-color: #000;
+    padding: 0 14px;
+    display: flex;
+    // 垂直居中
+    align-items: center;
+    // 横向平分空间
+    justify-content: space-between;
+}
+
+// 设置左侧导航图标
+.left-menu{
+    &:active{
+        // 显示隐藏菜单
+        .nav{
+            display: block;
+        }
+    }
+   
+    // position: relative;
+    // 设置菜单
+    .nav{
+        display: none;
+        position: absolute;
+        left: 0; 
+        right: 0;
+        bottom: 0;
+        top:48px;
+        background-color: #000;  
+        padding-top: 60px;
+
+        li{
+            width: 80%;
+            margin:0 auto;
+            border-bottom: 1px solid #757474;
+
+            a{
+                display: block;
+                line-height: 44px;
+                font-size: 14px;
+               
+            }
+
+            // &是选定现在的父元素，让最后一个超链接成为一个行内块元素
+            &:last-child a{
+                display: inline-block;
+                margin-right: 6px;
+            }
+
+            span{
+                color: #fff;
+                font-size: 14px;
+            }
+        }
+    }
+
+    // 图标
+    .menu-icon{
+        // background-color: #bfa;
+        width: 18px;
+        height: 48px;
+        position: relative;
+
+        li{
+            width: 18px; 
+            height: 1px;
+            background-color: #fff;
+            position: absolute;
+            transform-origin: left center;
+    
+            transition: 0.5s;
+        }
+    
+        // 导航的三个线
+        li:nth-child(1){
+            top:18px;
+            // 向下旋转
+           
+        }
+    
+        li:nth-child(2){
+            top:24px;
+            // 隐藏
+            // 或者： visibility: hidden;
+          
+        }
+    
+        li:nth-child(3){
+            top:30px;
+           
+        }
+    
+        &:hover{
+            li:nth-child(1){
+                // top:18px;
+                // 向下旋转
+                transform: rotateZ(40deg)
+            }
+        
+            li:nth-child(2){
+                top:24px;
+                // 隐藏
+                // 或者： visibility: hidden;
+                opacity: 0;
+            }
+        
+            li:nth-child(3){
+                top:30px;
+                transform: rotateZ(-40deg)
+            }
+        }
+    }
+
+}
+
+// 设置logo
+.logo{
+    a{
+        // 让"美图手机"字看不见，但是又不要删掉
+        text-indent: -9999px;
+        display: block;
+        width: 250px;
+        height:40px;
+        background-image: url(../img/18/meitu.png);
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+// 设置媒体查询
+@media only screen{
+    // 断点
+   @media (min-width: 768px){
+       .left-menu{
+           order: 2;
+           flex:auto;
+           .nav{
+               display: flex;
+               position: static;
+               padding: 0;
+
+               li{
+                   width: auto;
+                   height:47px;
+                   border-bottom: none;
+                   a{
+                       line-height: 48px;
+                   }
+                   span{
+                       display: none;
+                   }
+               }
+           }
+           .menu-icon{
+               display: none;
+           }
+
+       }
+       .logo{
+           order: 1;
+       }
+       .user-info{
+           order: 3;
+       }
+   }
+}

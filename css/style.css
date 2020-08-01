@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.w,
+.top-bar,
+.banner,
+.menu,
+.course-list {
+  width: 17.325rem;
+  margin: 0 auto;
+}
+html {
+  font-size: 5.33333333vw;
+  background-color: #eff0f4;
+}
+.top-bar {
+  display: flex;
+  height: 4.375rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-bar i {
+  font-size: 25px;
+}
+a {
+  color: #575252;
+  font-size: 30px;
+  text-decoration: none;
+}
+a i {
+  color: #999;
+  font-size: 16px;
+}
+.banner img {
+  width: 100%;
+}
+.menu {
+  height: 8.225rem;
+  display: flex;
+  flex-flow: row wrap ;
+  justify-content: space-between;
+  align-content: space-evenly;
+}
+.menu a {
+  width: 8.175rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+.menu a i {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 0.075rem 0 0.625rem;
+}
+.menu .course {
+  background-color: #e2654c;
+}
+.menu .star {
+  background-color: #806d9e;
+}
+.menu .sub {
+  background-color: #db565f;
+}
+.menu .download {
+  background-color: #73a5ce;
+}
+.course-list {
+  height: 9.85rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  margin-bottom: 1.15rem;
+}
+.course-list .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+}
+.course-list .title h2 {
+  font-size: 1rem;
+  color: #24253d;
+  border-left: 2px solid #3a84ff;
+  padding-left: 8px;
+}
+.course-list .title a {
+  font-size: 0.75rem;
+  color: #656565;
+  text-decoration: none;
+}
+.item-list {
+  width: 20.5rem;
+  display: flex;
+  overflow: auto;
+}
+.item {
+  box-sizing: border-box;
+  width: 8rem;
+  height: 8.1rem;
+  padding: 0 0.55rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin-right: 0.6rem;
+  flex: none;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.item img {
+  width: 100%;
+}
+.item .course-title {
+  font-size: 0.675rem;
+  color: #24253d;
+}
+.item .user-info {
+  display: flex;
+  align-content: center;
+}
+.item .avatar img {
+  margin-top: 5px;
+  margin-right: 5px;
+  width: 1.125rem;
+  border-radius: 50%;
+}
+.item .nickname {
+  font-size: 0.675rem;
+  color: #656565;
+  margin: auto 0;
+}
